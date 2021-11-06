@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BookMarked.DataAccess/1.0.0": {
+        "dependencies": {
+          "BookMarked.Models": "1.0.0",
+          "BookMarked.Utility": "1.0.0"
+        },
+        "runtime": {
+          "BookMarked.DataAccess.dll": {}
+        }
+      },
+      "BookMarked.Models/1.0.0": {
+        "runtime": {
+          "BookMarked.Models.dll": {}
+        }
+      },
+      "BookMarked.Utility/1.0.0": {
+        "runtime": {
+          "BookMarked.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookMarked.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookMarked.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookMarked.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

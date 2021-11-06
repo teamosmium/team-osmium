@@ -1,0 +1,11 @@
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.deps.json
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.dll
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\bin\Debug\net5.0\ref\BookMarked.Models.dll
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.pdb
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.AssemblyInfoInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.AssemblyInfo.cs
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.csproj.CoreCompileInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.dll
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\ref\BookMarked.Models.dll
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.pdb

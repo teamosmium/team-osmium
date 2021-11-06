@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookMarked.Models\BookMarked.Models.csproj" />
+    <ProjectReference Include="..\BookMarked.Utility\BookMarked.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
