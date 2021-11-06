@@ -1857,6 +1857,40 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BookMarked.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BookMarked.Models": "1.0.0",
+          "BookMarked.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookMarked.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookMarked.DataAccess.dll": {}
+        }
+      },
+      "BookMarked.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BookMarked.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookMarked.Models.dll": {}
+        }
+      },
+      "BookMarked.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BookMarked.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookMarked.Utility.dll": {}
+        }
       }
     }
   },
@@ -6707,10 +6741,27 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BookMarked.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookMarked.DataAccess/BookMarked.DataAccess.csproj",
+      "msbuildProject": "../BookMarked.DataAccess/BookMarked.DataAccess.csproj"
+    },
+    "BookMarked.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookMarked.Models/BookMarked.Models.csproj",
+      "msbuildProject": "../BookMarked.Models/BookMarked.Models.csproj"
+    },
+    "BookMarked.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookMarked.Utility/BookMarked.Utility.csproj",
+      "msbuildProject": "../BookMarked.Utility/BookMarked.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BookMarked.DataAccess >= 1.0.0",
+      "BookMarked.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.10",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.10",
@@ -6745,7 +6796,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+              "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
+            },
+            "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+              "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

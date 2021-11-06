@@ -1,4 +1,5 @@
 ﻿using BookMarked.Models;
+using BookMarked.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
