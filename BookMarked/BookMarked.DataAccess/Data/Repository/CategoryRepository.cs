@@ -19,7 +19,7 @@ namespace BookMarked.DataAccess.Data.Repository
 
         public void Update(Category category)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.CategoryId == category.CategoryName);
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.CategoryName == category.CategoryName);
             if (objFromDb != null)
             {
                 objFromDb.CategoryName = category.CategoryName;
