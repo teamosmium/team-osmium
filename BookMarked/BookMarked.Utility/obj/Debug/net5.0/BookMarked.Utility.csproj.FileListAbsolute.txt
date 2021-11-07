@@ -20,4 +20,3 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
