@@ -13,6 +13,6 @@ namespace BookMarked.DataAccess
         public int CategoryId { get; set; }
 
         [Required]
-        public int CategoryName { get; set; }
+        public string CategoryName { get; set; }
     }
 }

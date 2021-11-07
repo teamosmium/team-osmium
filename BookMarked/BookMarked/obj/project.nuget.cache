@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xF8BcRqvoK01FZjKUHlQ8QbMAL41PNY+PREEBGZxiF4vCaHSsdyGPGxidCW8nxuwwrGypVD2oJlRe3/U6q4uXg==",
+  "dgSpecHash": "2qGlenwwM5iXwAH181EbB+j7zBkrIVmKAeQ932Wh/jT6Mgg/x3XitM4qHV9xos1npOkS8DSauFP7eQFDFBEnHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj",
   "expectedPackageFiles": [
@@ -30,10 +30,10 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.11\\microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.10\\microsoft.entityframeworkcore.design.5.0.10.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.10\\microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.10\\microsoft.entityframeworkcore.sqlserver.5.0.10.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.10\\microsoft.entityframeworkcore.tools.5.0.10.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.11\\microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.11\\microsoft.entityframeworkcore.sqlserver.5.0.11.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.11\\microsoft.entityframeworkcore.tools.5.0.11.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
