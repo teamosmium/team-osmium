@@ -15,3 +15,20 @@ D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\D
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.deps.json
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\ref\BookMarked.DataAccess.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CopyComplete
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb

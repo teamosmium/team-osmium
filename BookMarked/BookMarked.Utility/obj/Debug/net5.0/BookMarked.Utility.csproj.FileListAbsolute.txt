@@ -9,3 +9,15 @@ D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Utility\obj\Debu
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.deps.json
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\ref\BookMarked.Utility.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.pdb
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfo.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
