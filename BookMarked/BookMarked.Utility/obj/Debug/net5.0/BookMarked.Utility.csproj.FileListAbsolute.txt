@@ -13,7 +13,6 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\ref\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfoInputs.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfo.cs
