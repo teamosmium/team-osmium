@@ -822,6 +822,11 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.TagHelpers.input.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.TagHelpers.output.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.RazorCoreGenerate.cache
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
@@ -843,8 +848,3 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\ref\BookMarked.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.pdb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.genruntimeconfig.cache
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
