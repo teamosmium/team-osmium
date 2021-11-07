@@ -4,6 +4,85 @@
     "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj": {}
   },
   "projects": {
+    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "projectName": "BookMarked.DataAccess",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
+              },
+              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +91,60 @@
         "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "projectName": "BookMarked.Utility",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,6 +215,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
+              },
               "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
                 "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
               }
