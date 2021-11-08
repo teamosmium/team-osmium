@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookMarked.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211107200959_addValidationToProduct")]
-    partial class addValidationToProduct
+    [Migration("20211108144221_addStockToProduct")]
+    partial class addStockToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace BookMarked.DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("BookMarked.DataAccess.Category", b =>
+            modelBuilder.Entity("BookMarked.Models.Category", b =>
                 {
                     b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
@@ -63,6 +63,9 @@ namespace BookMarked.DataAccess.Migrations
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -277,7 +280,7 @@ namespace BookMarked.DataAccess.Migrations
 
             modelBuilder.Entity("BookMarked.Models.Product", b =>
                 {
-                    b.HasOne("BookMarked.DataAccess.Category", "Category")
+                    b.HasOne("BookMarked.Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)

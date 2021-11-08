@@ -22,6 +22,8 @@ namespace BookMarked.Models
         [Required]
         [Range(1,10000)]
         public double Price { get; set; }
+        [Required]
+        public int Stock { get; set; }
         public string ImageURL { get; set; }
         [Required]
         public int CategoryId { get; set; }
