@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookMarked.DataAccess
+namespace BookMarked.Models
 {
     public class Category
     {

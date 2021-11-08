@@ -822,11 +822,8 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.TagHelpers.input.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.TagHelpers.output.cache
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.RazorCoreGenerate.cache
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\InsertOrUpdate.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
@@ -835,6 +832,8 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\_ViewImports.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\_ViewStart.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

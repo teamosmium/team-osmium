@@ -7,148 +7,92 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookMarked.Data;
 using BookMarked.DataAccess;
+using BookMarked.DataAccess.Data.Repository.IRepository;
+using BookMarked.Models;
 
 namespace BookMarked.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoriesController : Controller
     {
-        private readonly ApplicationDbContext _context;
-
-        public CategoriesController(ApplicationDbContext context)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoriesController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
-
-        // GET: Admin/Categories
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Categories.ToListAsync());
-        }
-
-        // GET: Admin/Categories/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
-        }
-
-        // GET: Admin/Categories/Create
-        public IActionResult Create()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // POST: Admin/Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CategoryId,CategoryName")] Category category)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(category);
-        }
 
-        // GET: Admin/Categories/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult InsertOrUpdate(int? id)
         {
-            if (id == null)
+            Category category = new Category();
+            if (!id.HasValue)
             {
-                return NotFound();
-            }
+                //This cretae
+                return View(category);
 
-            var category = await _context.Categories.FindAsync(id);
+            }
+            //this is update
+
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
             }
             return View(category);
-        }
 
-        // POST: Admin/Categories/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName")] Category category)
+        public IActionResult InsertOrUpdate(Category category)
         {
-            if (id != category.CategoryId)
-            {
-                return NotFound();
-            }
-
             if (ModelState.IsValid)
             {
-                try
+                if (category.CategoryId == 0)
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
+                    _unitOfWork.Category.Add(category);
                 }
-                catch (DbUpdateConcurrencyException)
+                else
                 {
-                    if (!CategoryExists(category.CategoryId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    _unitOfWork.Category.Update(category);
                 }
+                _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(category);
-        }
 
-        // GET: Admin/Categories/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
-            if (category == null)
-            {
-                return NotFound();
             }
 
             return View(category);
         }
 
-        // POST: Admin/Categories/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+
+        #region API CALLS
+
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            var category = await _context.Categories.FindAsync(id);
-            _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
         }
 
-        private bool CategoryExists(int id)
+
+        [HttpDelete]
+
+        public IActionResult Delete(int id)
         {
-            return _context.Categories.Any(e => e.CategoryId == id);
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
+
         }
+
+        #endregion
     }
 }

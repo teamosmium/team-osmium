@@ -1,5 +1,6 @@
 ﻿using BookMarked.Data;
 using BookMarked.DataAccess.Data.Repository.IRepository;
+using BookMarked.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace BookMarked.DataAccess.Data.Repository
 
         public void Update(Category category)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.CategoryName == category.CategoryName);
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.CategoryId == category.CategoryId);
             if (objFromDb != null)
             {
                 objFromDb.CategoryName = category.CategoryName;
