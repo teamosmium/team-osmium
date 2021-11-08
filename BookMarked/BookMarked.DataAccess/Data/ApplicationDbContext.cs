@@ -1,4 +1,5 @@
 ﻿using BookMarked.DataAccess;
+using BookMarked.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
