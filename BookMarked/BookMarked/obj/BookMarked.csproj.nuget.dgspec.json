@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked\\BookMarked.csproj": {}
+    "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\BookMarked.csproj": {}
   },
   "projects": {
-    "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+    "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
         "projectName": "BookMarked.DataAccess",
-        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Aditya..!!\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aditya..!!\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
-                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
+              "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+                "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
               },
-              "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
-                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
+              "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+                "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
               }
             }
           }
@@ -79,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+    "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
         "projectName": "BookMarked.Models",
-        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\obj\\",
+        "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+        "packagesPath": "C:\\Users\\Aditya..!!\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aditya..!!\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,21 +139,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+    "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
         "projectName": "BookMarked.Utility",
-        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Utility\\obj\\",
+        "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "packagesPath": "C:\\Users\\Aditya..!!\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aditya..!!\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,21 +193,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked\\BookMarked.csproj": {
+    "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\BookMarked.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked\\BookMarked.csproj",
+        "projectUniqueName": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\BookMarked.csproj",
         "projectName": "BookMarked",
-        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked\\BookMarked.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked\\obj\\",
+        "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\BookMarked.csproj",
+        "packagesPath": "C:\\Users\\Aditya..!!\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aditya..!!\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -221,11 +221,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
-                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
+              "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
               },
-              "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
-                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
+              "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+                "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
               }
             }
           }
@@ -281,6 +281,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -289,7 +295,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }
