@@ -66,6 +66,7 @@ namespace BookMarked.Areas.Admin.Controllers
                     if(productVM.Product.ImageURL != null)
                     {
                         //this is an edit, we need to remove old image
+                        
                         var imagePath = Path.Combine(webRootPath, productVM.Product.ImageURL.TrimStart('\\'));
                         if(System.IO.File.Exists(imagePath))
                         {
@@ -77,7 +78,7 @@ namespace BookMarked.Areas.Admin.Controllers
                     {
                         files[0].CopyTo(fileStreams);
                     }
-                    productVM.Product.ImageURL = @"\images\product" + fileName + extension;
+                    productVM.Product.ImageURL = @"\images\products\" + fileName + extension;
                 }
                 else
                 {
@@ -119,6 +120,16 @@ namespace BookMarked.Areas.Admin.Controllers
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
+            
+                //this is an edit, we need to remove old image
+                string webRootPath = _hostEnvironment.WebRootPath;
+                var imagePath = Path.Combine(webRootPath, objFromDb.ImageURL.TrimStart('\\'));
+                if (System.IO.File.Exists(imagePath))
+                {
+                    System.IO.File.Delete(imagePath);
+                }
+
+            
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
