@@ -21,3 +21,14 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\ref\BookMarked.Models.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.pdb
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.deps.json
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\bin\Debug\net5.0\ref\BookMarked.Models.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.pdb
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.AssemblyInfoInputs.cache
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.AssemblyInfo.cs
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.csproj.CoreCompileInputs.cache
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\ref\BookMarked.Models.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.pdb
