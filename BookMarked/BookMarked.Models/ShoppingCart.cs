@@ -22,7 +22,7 @@ namespace BookMarked.Models
         public string ProductId { get; set; }
         [ForeignKey("Product")]
         public Product Product { get; set; }
-        public int count { get; set; }
+        public int Count { get; set; }
         [NotMapped]
         public double Price { get; set; }
 
