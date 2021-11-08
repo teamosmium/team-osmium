@@ -1,4 +1,5 @@
-﻿using BookMarked.Models;
+﻿using BookMarked.DataAccess.Data.Repository.IRepository;
+using BookMarked.Models;
 using BookMarked.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -14,15 +15,18 @@ namespace BookMarked
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
+            return View(productList);
         }
 
         public IActionResult Privacy()

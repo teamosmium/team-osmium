@@ -442,10 +442,6 @@ D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\bin\Debug\net5.0
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.DataAccess.pdb
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.Utility.pdb
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
@@ -912,3 +908,7 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\ref\BookMarked.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.pdb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.genruntimeconfig.cache
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.MvcApplicationPartsAssemblyInfo.cs
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categories\InsertOrUpdate.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
