@@ -1,4 +1,5 @@
 ﻿using BookMarked.DataAccess;
+using BookMarked.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,5 +15,6 @@ namespace BookMarked.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

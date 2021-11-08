@@ -20,3 +20,4 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\ref\BookMarked.Models.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.pdb
+D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.csproj.AssemblyReference.cache
