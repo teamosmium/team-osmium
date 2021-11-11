@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2YPhjLyrBvJFHL/ZFP7c9I88zF4p+fMhuIPb5kM2ReidrARkJvzCA4AD5Rzk6RWomlQsyA4r7YK7kVJzg0Fc6w==",
+  "dgSpecHash": "gi7a2e3eMYlgB/mkN6Ssk4u/DI0wSnDWE8pyF3S4QnVX9ExONXu4yvTbTk2FM/FJ+OIotsJNVASZyRfcRY3mtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked\\BookMarked.csproj",
   "expectedPackageFiles": [
@@ -206,8 +206,7 @@
     "C:\\Users\\Aditya..!!\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Aditya..!!\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Aditya..!!\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Aditya..!!\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Aditya..!!\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\Aditya..!!\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
