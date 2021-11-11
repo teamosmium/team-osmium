@@ -15,12 +15,12 @@ namespace BookMarked.Models
             
         }
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
         public string  UserId{ get; set; }
         [ForeignKey("UsereId")]
         
         public string ProductId { get; set; }
-        [ForeignKey("Product")]
+        [ForeignKey("Id")]
         public Product Product { get; set; }
         public int Count { get; set; }
         [NotMapped]
