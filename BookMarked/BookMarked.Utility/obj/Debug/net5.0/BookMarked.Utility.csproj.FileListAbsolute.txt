@@ -21,3 +21,14 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
 D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.deps.json
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\ref\BookMarked.Utility.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.pdb
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfoInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfo.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.CoreCompileInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb

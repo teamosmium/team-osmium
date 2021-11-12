@@ -11,7 +11,7 @@ namespace BookMarked.Models
     public class Product
     {
         [Key]
-        public int Id { get; set; }
+        public int ProductId { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]
