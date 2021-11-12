@@ -83,13 +83,13 @@ namespace BookMarked.Areas.Admin.Controllers
                 else
                 {
                     //update when no image change
-                    if(productVM.Product.Id !=0)
+                    if(productVM.Product.ProductId != 0)
                     {
-                        Product objFromDb = _unitOfWork.Product.Get(productVM.Product.Id);
+                        Product objFromDb = _unitOfWork.Product.Get(productVM.Product.ProductId);
                         productVM.Product.ImageURL = objFromDb.ImageURL;
                     }
                 }
-                if(productVM.Product.Id ==0)
+                if(productVM.Product.ProductId == 0)
                 {
                     _unitOfWork.Product.Add(productVM.Product);
                 }
