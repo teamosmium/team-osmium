@@ -1,15 +1,13 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace BookMarked.Models
 {
-    public class User : IdentityUser
+    public class User
     {
+        [Key]
+        public int UserId { get; set; }
         [Required]
         public string Name { get; set; }
         public string StreetAddress { get; set; }

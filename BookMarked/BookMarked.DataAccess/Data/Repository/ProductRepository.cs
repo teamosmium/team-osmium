@@ -20,7 +20,7 @@ namespace BookMarked.DataAccess.Data.Repository
 
         public void Update(Product product)
         {
-            var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
+            var objFromDb = _db.Products.FirstOrDefault(s => s.ProductId == product.ProductId);
             if (objFromDb != null)
             {
                 if (product.ImageURL != null)
