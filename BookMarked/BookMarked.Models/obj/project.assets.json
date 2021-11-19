@@ -6443,19 +6443,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
       "projectName": "BookMarked.Models",
-      "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\obj\\",
+      "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
