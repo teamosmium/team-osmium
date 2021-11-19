@@ -1830,8 +1830,17 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\ref\BookMarked.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.SqlServer.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Home\Details.cshtml.g.cs
+=======
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\Stripe.net.dll
+C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Home\Details.cshtml.g.cs
+>>>>>>> Stripe-Settings-added

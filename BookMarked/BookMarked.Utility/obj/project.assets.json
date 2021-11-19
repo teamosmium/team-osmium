@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Aditya..!!\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
       "projectName": "BookMarked.Utility",
-      "projectPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
-      "packagesPath": "C:\\Users\\Aditya..!!\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aditya..!!\\source\\repos\\BookM\\BookMarked\\BookMarked.Utility\\obj\\",
+      "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aditya..!!\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,8 +60,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

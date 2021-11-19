@@ -1,8 +1,13 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Aditya..!!\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Aditya..!!\\.nuget\\packages"
+=======
+      "C:\\Users\\admin\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\admin\\.nuget\\packages"
+>>>>>>> Stripe-Settings-added
     ]
   }
 }
