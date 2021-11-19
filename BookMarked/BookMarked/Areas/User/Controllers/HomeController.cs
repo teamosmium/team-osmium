@@ -28,7 +28,16 @@ namespace BookMarked
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
             return View(productList);
         }
+        public IActionResult Details(int id)
 
+        {
+            var productFromDb= _unitOfWork.Product.GetFirstOrDefault(u=>u.ProductId == id, includePropreties:"Category");
+            ShoppingCart cartobj = new ShoppingCart()
+            {
+                Product = productFromDb
+            };
+            return View(cartobj);
+        }
         public IActionResult Privacy()
         {
             return View();

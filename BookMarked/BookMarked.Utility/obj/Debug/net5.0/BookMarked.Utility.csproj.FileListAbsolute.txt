@@ -32,3 +32,14 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Util
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.deps.json
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\bin\Debug\net5.0\ref\BookMarked.Utility.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.pdb
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfoInputs.cache
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.AssemblyInfo.cs
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb

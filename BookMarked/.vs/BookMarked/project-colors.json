@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6577cc5b-f2f5-4e16-9a4d-5d46c199d9f6": {
+      "ProjectGuid": "6577cc5b-f2f5-4e16-9a4d-5d46c199d9f6",
+      "DisplayName": "BookMarked.Models",
+      "ColorIndex": 0
+    },
+    "ab70a54a-0b2a-423d-b7ea-e3c266ef64c1": {
+      "ProjectGuid": "ab70a54a-0b2a-423d-b7ea-e3c266ef64c1",
+      "DisplayName": "BookMarked",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
