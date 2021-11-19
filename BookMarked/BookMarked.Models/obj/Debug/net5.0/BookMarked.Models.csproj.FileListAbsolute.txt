@@ -32,7 +32,6 @@ C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\ne
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\ref\BookMarked.Models.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.pdb
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Models\obj\Debug\net5.0\BookMarked.Models.csproj.AssemblyReference.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.deps.json
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Models\bin\Debug\net5.0\BookMarked.Models.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Models\bin\Debug\net5.0\ref\BookMarked.Models.dll
