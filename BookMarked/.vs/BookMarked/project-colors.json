@@ -10,7 +10,17 @@
       "ProjectGuid": "ab70a54a-0b2a-423d-b7ea-e3c266ef64c1",
       "DisplayName": "BookMarked",
       "ColorIndex": 1
+    },
+    "844dc0f3-4faa-4030-bed8-38b221ccedd2": {
+      "ProjectGuid": "844dc0f3-4faa-4030-bed8-38b221ccedd2",
+      "DisplayName": "BookMarked.DataAccess",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

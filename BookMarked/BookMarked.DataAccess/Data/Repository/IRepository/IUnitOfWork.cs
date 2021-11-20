@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookMarked.DataAccess.Repository.IRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace BookMarked.DataAccess.Data.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
+        IShoppingCartRepository ShoppingCart { get; }
         ISP_Call SP_Call { get; }
         void Save();
     }

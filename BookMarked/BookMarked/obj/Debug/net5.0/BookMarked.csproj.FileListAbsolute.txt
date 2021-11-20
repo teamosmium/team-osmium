@@ -1836,6 +1836,7 @@ C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\En
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Home\Details.cshtml.g.cs
+<<<<<<< HEAD
 =======
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.SqlServer.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\EntityFramework.dll
@@ -1844,3 +1845,12 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Deb
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\Stripe.net.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Home\Details.cshtml.g.cs
 >>>>>>> Stripe-Settings-added
+=======
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+>>>>>>> Product-Details-Added
