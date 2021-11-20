@@ -1835,3 +1835,10 @@ C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\En
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Home\Details.cshtml.g.cs
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
