@@ -10,7 +10,7 @@
                             Order Summary
                         </div>
                         <div class="col-6 text-right">
-                            <a class="btn btn-outline-info btn-sm">Back to Cart</a>
+                            <a asp-area = "Customer" asp-controller = "Cart" asp-action = "Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -27,7 +27,7 @@
                                             <label>Name</label>
                                         </div>
                                         <div class="col-9">
-                                            <input type="text" class="form-control" />
+                                            <input asp-for = "orderHeader.Name" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
