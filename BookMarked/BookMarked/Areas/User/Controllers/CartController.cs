@@ -1,4 +1,4 @@
-public IActionResult Summary()
+static IActionResult Summary(object claim)
 {
     var claimsIdentity = (ClaimsIdentity)User.Identity;
     var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
