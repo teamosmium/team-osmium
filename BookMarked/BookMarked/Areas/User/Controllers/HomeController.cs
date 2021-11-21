@@ -36,6 +36,7 @@ namespace BookMarked
             var productFromDb= _unitOfWork.Product.GetFirstOrDefault(u=>u.ProductId == id, includePropreties:"Category");
             ShoppingCart cartobj = new ShoppingCart()
             {
+                ProductId = productFromDb.ProductId,
                 Product = productFromDb
             };
             return View(cartobj);
@@ -44,41 +45,45 @@ namespace BookMarked
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public IActionResult Details(ShoppingCart Cartobject)
+        public IActionResult Details(ShoppingCart cartObject)
         {
-            Cartobject.Id = 0;
+            cartObject.Id = 0;
             if (ModelState.IsValid)
             {
-                var ClaimsIdentity = (ClaimsIdentity)User.Identity;
-                var ClaimIdentity = ClaimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-                Cartobject.UserId = ClaimIdentity.Value;
-                ShoppingCart CartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault( u=>u.UserId == 
-                Cartobject.UserId && u.ProductId == Cartobject.ProductId,includePropreties:"Product");
+                var claimsIdentity = (ClaimsIdentity)User.Identity;
+                var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+                cartObject.UserId = claim.Value;
 
-                if(CartFromDb == null)
-                 {
-                    _unitOfWork.ShoppingCart.Add(Cartobject);
+                ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.UserId == cartObject.UserId 
+                && u.ProductId == cartObject.ProductId);
+
+                if (cartFromDb == null)
+                {
+                    //no record on DB 
+                    _unitOfWork.ShoppingCart.Add(cartObject);
                 }
                 else
                 {
-                    CartFromDb.Count += Cartobject.Count;
-                    _unitOfWork.ShoppingCart.Update(CartFromDb);
-
+                    cartFromDb.Count += cartObject.Count;
+                    _unitOfWork.ShoppingCart.Update(cartFromDb);
                 }
+
                 _unitOfWork.Save();
+                var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == cartObject.UserId).ToList().Count();
                 return RedirectToAction(nameof(Index));
-                //Then we will add to cart
             }
             else
             {
-                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.ProductId == Cartobject.ProductId, includePropreties: "Category");
-                ShoppingCart cartobj = new ShoppingCart()
+                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.ProductId == cartObject.ProductId, includePropreties: "Category");
+                ShoppingCart cartObj = new ShoppingCart()
                 {
-                    Product = productFromDb
-                };
-                return View(cartobj);
-            }
+                    Product = productFromDb,
+                    ProductId = productFromDb.ProductId
 
+                };
+
+                return View(cartObj);
+            }
         }
             
         public IActionResult Privacy()

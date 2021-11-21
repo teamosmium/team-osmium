@@ -12,6 +12,8 @@ namespace BookMarked.DataAccess.Data.Repository.IRepository
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
         IShoppingCartRepository ShoppingCart { get; }
+        IOrderHeaderRepository OrderHeader { get; }
+        IOrderDetailsRepository OrderDetails { get; }
         ISP_Call SP_Call { get; }
         void Save();
     }
