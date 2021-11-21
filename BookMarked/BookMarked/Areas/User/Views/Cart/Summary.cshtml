@@ -1,4 +1,5 @@
 @model BookMarked.Models.ViewModels.ShoppingCartVM
+
 <form method="post">
         <br />
         <div class="backgroundWhiteBorder">
@@ -10,7 +11,7 @@
                             Order Summary
                         </div>
                         <div class="col-6 text-right">
-                            <a class="btn btn-outline-info btn-sm">Back to Cart</a>
+                            <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -27,7 +28,7 @@
                                             <label>Name</label>
                                         </div>
                                         <div class="col-9">
-                                            <input type="text" class="form-control" />
+                                            <input asp-for="OrderHeader.Name" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
@@ -35,7 +36,7 @@
                                             <label>Phone</label>
                                         </div>
                                         <div class="col-9">
-                                            <input  type="text" class="form-control" />
+                                            <input  asp-for="OrderHeader.PhoneNumber" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
@@ -43,7 +44,7 @@
                                             <label>Street Address</label>
                                         </div>
                                         <div class="col-9">
-                                            <input type="text" class="form-control" />
+                                            <input asp-for="OrderHeader.StreetAddress" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
@@ -51,7 +52,7 @@
                                             <label>City</label>
                                         </div>
                                         <div class="col-9">
-                                            <input type="text" class="form-control" />
+                                            <input asp-for="OrderHeader.City" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
@@ -59,7 +60,7 @@
                                             <label>State</label>
                                         </div>
                                         <div class="col-9">
-                                            <input  type="text" class="form-control" />
+                                            <input asp-for="OrderHeader.State" type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="row my-1">
@@ -67,7 +68,7 @@
                                             <label>Postal Code</label>
                                         </div>
                                         <div class="col-9">
-                                            <input  type="text" class="form-control" />
+                                            <input asp-for="OrderHeader.PostalCode" type="text" class="form-control" />
                                         </div>
                                     </div>
                                 </div>
@@ -76,16 +77,20 @@
                                         <span class="text-info">Order Summary:</span>
                                     </h4>
                                     <ul class="list-group mb-3">
-                                            <li class="list-group-item d-flex justify-content-between">
+                                        @{ var total = 0.0;}
+                                        @foreach (var details in Model.ListCart)
+                                        {
+                                        <li class="list-group-item d-flex justify-content-between">
                                                 <div>
-                                                    <h6 class="my-0">--TITLE--</h6>
-                                                    <small class="text-muted">Quantity: --COUNT--</small>
+                                                    <h6 class="my-0">@details.Product.Title</h6>
+                                                    <small class="text-muted">Quantity: @details.Count</small>
                                                 </div>
-                                                <span class="text-muted">$ --PRICE* COUNT--</span>
+                                                <span class="text-muted">$ @(details.Price * details.Count)</span>
                                             </li>
+                                        }
                                         <li class="list-group-item d-flex justify-content-between bg-light">
                                             <small class="text-info">Total (USD)</small>
-                                            <strong class="text-info">$--GRAND TOTAL--</strong>
+                                            <strong class="text-info">$@(Model.OrderHeader.OrderTotal)</strong>
                                         </li>
                                     </ul>
                                 </div>
