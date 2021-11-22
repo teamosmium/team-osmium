@@ -41,7 +41,5 @@ namespace BookMarked.Models
         public string PostalCode { get; set; }
         [Required]
         public string Name { get; set; }
-
-
     }
 }

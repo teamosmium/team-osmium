@@ -17,8 +17,8 @@ namespace BookMarked.Models
         [Key]
         public int Id { get; set; }
         public string  UserId{ get; set; }
-        [ForeignKey("UsereId")]
-        
+        [ForeignKey("UserId")]
+        public User User { get; set; }
         public int ProductId { get; set; }
         [ForeignKey("ProductId")]
         public Product Product { get; set; }

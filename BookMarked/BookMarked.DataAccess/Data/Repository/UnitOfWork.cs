@@ -21,11 +21,17 @@ namespace BookMarked.DataAccess.Data.Repository
             Category = new CategoryRepository(_db);
             Product = new ProductRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
+            User = new UserRepository(_db);
+            OrderHeader = new OrderHeaderRepository(_db);
+            OrderDetails = new OrderDetailsRepository(_db);
             SP_Call = new SP_Call(_db);
         }
+        public IUserRepository User { get; private set; }
         public ICategoryRepository Category { get; private set; }
         public IProductRepository Product { get; private set; }
         public IShoppingCartRepository ShoppingCart { get; private set; }
+        public IOrderHeaderRepository OrderHeader { get; private set; }
+        public IOrderDetailsRepository OrderDetails { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
         public void Dispose()
