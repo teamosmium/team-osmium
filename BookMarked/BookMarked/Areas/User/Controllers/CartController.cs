@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 namespace BookMarked.Areas.Customer.Controllers
 {
+    [Area("User")]
     public class CartController : Controller
 
     {
