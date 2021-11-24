@@ -1,7 +1,9 @@
 ﻿using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Models;
 using BookMarked.Models.ViewModels;
+using BookMarked.Utility;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -28,6 +30,15 @@ namespace BookMarked
         public IActionResult Index()
         {
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            if (claim != null)
+            {
+                var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == claim.Value).ToList().Count();
+                HttpContext.Session.SetInt32(SD.ssShoppingCart, count);
+            }
+
             return View(productList);
         }
         public IActionResult Details(int id)
@@ -70,6 +81,9 @@ namespace BookMarked
 
                 _unitOfWork.Save();
                 var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == cartObject.UserId).ToList().Count();
+                HttpContext.Session.SetInt32(SD.ssShoppingCart, count);
+
+                var obj = HttpContext.Session.GetInt32(SD.ssShoppingCart);
                 return RedirectToAction(nameof(Index));
             }
             else
