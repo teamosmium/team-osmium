@@ -9,6 +9,7 @@ namespace BookMarked.DataAccess.Data.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
+        IUserRepository User { get; }
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
         IShoppingCartRepository ShoppingCart { get; }

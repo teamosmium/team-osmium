@@ -18,6 +18,7 @@ namespace BookMarked.Utility
         public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
         public const string PaymentStatusRejected = "Rejected";
 
+        public const string Role_Admin = "Admin";
         public static string ConvertToRawHtml(string source)
         {
             char[] array = new char[source.Length];
