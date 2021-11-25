@@ -33,4 +33,9 @@
     <ProjectReference Include="..\BookMarked.Models\BookMarked.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\ebooks\pdf\" />
+    <Folder Include="wwwroot\images\ebook\" />
+  </ItemGroup>
+
 </Project>

@@ -1,14 +1,12 @@
 ﻿using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Models;
 using BookMarked.Models.ViewModels;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace BookMarked
@@ -30,62 +28,7 @@ namespace BookMarked
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
             return View(productList);
         }
-        public IActionResult Details(int id)
 
-        {
-            var productFromDb= _unitOfWork.Product.GetFirstOrDefault(u=>u.ProductId == id, includePropreties:"Category");
-            ShoppingCart cartobj = new ShoppingCart()
-            {
-                ProductId = productFromDb.ProductId,
-                Product = productFromDb
-            };
-            return View(cartobj);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize]
-        public IActionResult Details(ShoppingCart cartObject)
-        {
-            cartObject.Id = 0;
-            if (ModelState.IsValid)
-            {
-                var claimsIdentity = (ClaimsIdentity)User.Identity;
-                var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-                cartObject.UserId = claim.Value;
-
-                ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.UserId == cartObject.UserId 
-                && u.ProductId == cartObject.ProductId);
-
-                if (cartFromDb == null)
-                {
-                    //no record on DB 
-                    _unitOfWork.ShoppingCart.Add(cartObject);
-                }
-                else
-                {
-                    cartFromDb.Count += cartObject.Count;
-                    _unitOfWork.ShoppingCart.Update(cartFromDb);
-                }
-
-                _unitOfWork.Save();
-                var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == cartObject.UserId).ToList().Count();
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.ProductId == cartObject.ProductId, includePropreties: "Category");
-                ShoppingCart cartObj = new ShoppingCart()
-                {
-                    Product = productFromDb,
-                    ProductId = productFromDb.ProductId
-
-                };
-
-                return View(cartObj);
-            }
-        }
-            
         public IActionResult Privacy()
         {
             return View();

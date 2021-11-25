@@ -20,5 +20,6 @@ namespace BookMarked.Data
         public DbSet<OrderDetails> OrderDetails { get; set; }
         public DbSet<OrderHeader> OrderHeaders { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+        public DbSet<EBook> EBooks { get; set; }
     }
 }

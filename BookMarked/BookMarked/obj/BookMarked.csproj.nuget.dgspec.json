@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj": {}
+    "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+    "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
         "projectName": "BookMarked.DataAccess",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\obj\\",
+        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
+              "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
               },
-              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
+              "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj"
               }
             }
           }
@@ -83,17 +83,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+    "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
         "projectName": "BookMarked.Models",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\obj\\",
+        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,17 +147,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
+    "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
         "projectName": "BookMarked.Utility",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Utility\\obj\\",
+        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\BookMarked.Utility.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,17 +201,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj": {
+    "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj",
+        "projectUniqueName": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj",
         "projectName": "BookMarked",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked\\obj\\",
+        "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked\\BookMarked.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,11 +225,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
+              "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj": {
+                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.DataAccess\\BookMarked.DataAccess.csproj"
               },
-              "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\teamosmium\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
+              "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj": {
+                "projectPath": "D:\\5721 - Software Design - JJ\\Project\\BM\\team-osmium\\BookMarked\\BookMarked.Models\\BookMarked.Models.csproj"
               }
             }
           }

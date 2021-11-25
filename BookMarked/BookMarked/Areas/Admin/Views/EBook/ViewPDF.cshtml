@@ -1,0 +1,11 @@
+﻿@model BookMarked.Models.EBook
+    <style>
+        #pdfclass {
+            width: 1024px;
+            height: 2000px;
+        }
+
+    </style>
+<p>@Model.Title</p>
+@*<embed src="@Model.BookPdfUrl" class="w-100" />*@
+<iframe src="@Model.BookPdfUrl#toolbar=0" width="300" height="800" class="w-100"></iframe>
