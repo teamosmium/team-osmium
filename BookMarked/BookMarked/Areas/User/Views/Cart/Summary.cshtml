@@ -14,7 +14,7 @@
                         Order Summary
                     </div>
                     <div class="col-6 text-right">
-                        <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
+                        <a asp-area="User" asp-controller="Cart" asp-action="Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
                     </div>
                 </div>
                 <div class="card-body">
@@ -32,46 +32,6 @@
                                     </div>
                                     <div class="col-9">
                                         <input asp-for="OrderHeader.Name" type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row my-1">
-                                    <div class="col-3">
-                                        <label>Phone</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <input asp-for="OrderHeader.PhoneNumber" type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row my-1">
-                                    <div class="col-3">
-                                        <label>Street Address</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <input asp-for="OrderHeader.StreetAddress" type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row my-1">
-                                    <div class="col-3">
-                                        <label>City</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <input asp-for="OrderHeader.City" type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row my-1">
-                                    <div class="col-3">
-                                        <label>State</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <input asp-for="OrderHeader.State" type="text" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="row my-1">
-                                    <div class="col-3">
-                                        <label>Postal Code</label>
-                                    </div>
-                                    <div class="col-9">
-                                        <input asp-for="OrderHeader.PostalCode" type="text" class="form-control" />
                                     </div>
                                 </div>
                             </div>
