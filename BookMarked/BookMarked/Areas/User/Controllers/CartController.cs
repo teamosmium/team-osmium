@@ -122,9 +122,7 @@ namespace BookMarked.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += item.Price * item.Count;
             }
 
-            ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.User.Name;
-            ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.User.City;
-            ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.User.PostalCode;
+            ShoppingCartVM.OrderHeader.Name = User.Identity.Name;
 
             return View (ShoppingCartVM);
         }
