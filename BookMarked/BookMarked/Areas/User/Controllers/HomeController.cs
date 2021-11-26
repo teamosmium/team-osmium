@@ -1,12 +1,6 @@
 ﻿using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Models;
 using BookMarked.Models.ViewModels;
-<<<<<<< HEAD
-using BookMarked.Utility;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-=======
->>>>>>> EBooksandSubscription
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -32,78 +26,9 @@ namespace BookMarked
         public IActionResult Index()
         {
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
-
-            var claimsIdentity = (ClaimsIdentity)User.Identity;
-            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-            if (claim != null)
-            {
-                var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == claim.Value).ToList().Count();
-                HttpContext.Session.SetInt32(SD.ssShoppingCart, count);
-            }
-
             return View(productList);
         }
 
-<<<<<<< HEAD
-        {
-            var productFromDb= _unitOfWork.Product.GetFirstOrDefault(u=>u.ProductId == id, includePropreties:"Category");
-            ShoppingCart cartobj = new ShoppingCart()
-            {
-                ProductId = productFromDb.ProductId,
-                Product = productFromDb
-            };
-            return View(cartobj);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize]
-        public IActionResult Details(ShoppingCart cartObject)
-        {
-            cartObject.Id = 0;
-            if (ModelState.IsValid)
-            {
-                var claimsIdentity = (ClaimsIdentity)User.Identity;
-                var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-                cartObject.UserId = claim.Value;
-
-                ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.UserId == cartObject.UserId 
-                && u.ProductId == cartObject.ProductId);
-
-                if (cartFromDb == null)
-                {
-                    //no record on DB 
-                    _unitOfWork.ShoppingCart.Add(cartObject);
-                }
-                else
-                {
-                    cartFromDb.Count += cartObject.Count;
-                    _unitOfWork.ShoppingCart.Update(cartFromDb);
-                }
-
-                _unitOfWork.Save();
-                var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == cartObject.UserId).ToList().Count();
-                HttpContext.Session.SetInt32(SD.ssShoppingCart, count);
-
-                var obj = HttpContext.Session.GetInt32(SD.ssShoppingCart);
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.ProductId == cartObject.ProductId, includePropreties: "Category");
-                ShoppingCart cartObj = new ShoppingCart()
-                {
-                    Product = productFromDb,
-                    ProductId = productFromDb.ProductId
-
-                };
-
-                return View(cartObj);
-            }
-        }
-            
-=======
->>>>>>> EBooksandSubscription
         public IActionResult Privacy()
         {
             return View();
