@@ -1,6 +1,13 @@
-﻿<link rel="stylesheet" href="~/css/subscription.css" type="text/css" />
+﻿@using Microsoft.Extensions.Options
+
+@inject IOptions<BookMarked.Utility.StripeSettings> Stripe
+
+@{
+    var OrderTotalForStripe = 10 * 100;
+
+}
+<link rel="stylesheet" href="~/css/subscription.css" type="text/css" />
 <div class="background">
-    <div class="container">
         <div class="panel pricing-table">
 
             <div class="pricing-plan">
@@ -11,7 +18,15 @@
                     <li class="pricing-features-item">Unlimited access to all the EBooks on the site for 15 days</li>
                 </ul>
                 <span class="pricing-price">15 Days</span>
-                <a href="#/" class="pricing-button">€10</a>
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="@Stripe.Value.PublishableKey"
+                        data-amount="@OrderTotalForStripe"
+                        data-name="BookMarked"
+                        data-label="€10"
+                        data-locate="auto"
+                        data-allow-remember-me="false"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
+                </script>
             </div>
 
             <div class="pricing-plan">
@@ -22,7 +37,18 @@
                     <li class="pricing-features-item">Unlimited access to all the EBooks on the site for 30 days</li>
                 </ul>
                 <span class="pricing-price">30 Days</span>
-                <a href="#/" class="pricing-button is-featured">€15</a>
+                @{
+                    OrderTotalForStripe = 15 * 100;
+                }
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="@Stripe.Value.PublishableKey"
+                        data-amount="@OrderTotalForStripe"
+                        data-name="BookMarked"
+                        data-label="€15"
+                        data-locate="auto"
+                        data-allow-remember-me="false"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
+                </script>
             </div>
 
             <div class="pricing-plan">
@@ -33,9 +59,20 @@
                     <li class="pricing-features-item">Unlimited access to all the EBooks on the site for 60 days</li>
                 </ul>
                 <span class="pricing-price">60 Days</span>
-                <a href="#/" class="pricing-button">€25</a>
+                @{
+                    OrderTotalForStripe = 25 * 100;
+
+                }
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="@Stripe.Value.PublishableKey"
+                        data-amount="@OrderTotalForStripe"
+                        data-name="BookMarked"
+                        data-label="€25"
+                        data-locate="auto"
+                        data-allow-remember-me="false"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
+                </script>
             </div>
 
         </div>
-    </div>
 </div>
