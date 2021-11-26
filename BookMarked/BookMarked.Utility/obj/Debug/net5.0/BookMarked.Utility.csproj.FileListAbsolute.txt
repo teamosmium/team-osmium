@@ -34,6 +34,7 @@ C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\n
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
 <<<<<<< HEAD
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
 =======
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\bin\Debug\net5.0\BookMarked.Utility.deps.json
@@ -48,3 +49,6 @@ C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
 >>>>>>> Session-for-Cart-added
+=======
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache
+>>>>>>> EBooksandSubscription

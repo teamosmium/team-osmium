@@ -41,6 +41,7 @@ namespace BookMarked
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+<<<<<<< HEAD
 
             services.AddSession(options =>
             {
@@ -48,6 +49,9 @@ namespace BookMarked
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+=======
+            services.AddScoped<EBookRepository, EBookRepository>();
+>>>>>>> EBooksandSubscription
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

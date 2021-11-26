@@ -27,6 +27,7 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+<<<<<<< HEAD
                         @if (User.IsInRole(SD.Role_Admin))
                         {
                             <li class="nav-item dropdown">
@@ -79,6 +80,11 @@
                                 </a>
                             </li>
                         }
+=======
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="EBook" asp-action="Index">EBooks</a>
+                        </li>
+>>>>>>> EBooksandSubscription
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

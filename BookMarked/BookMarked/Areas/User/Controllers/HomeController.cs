@@ -1,16 +1,18 @@
 ﻿using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Models;
 using BookMarked.Models.ViewModels;
+<<<<<<< HEAD
 using BookMarked.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+=======
+>>>>>>> EBooksandSubscription
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace BookMarked
@@ -41,8 +43,8 @@ namespace BookMarked
 
             return View(productList);
         }
-        public IActionResult Details(int id)
 
+<<<<<<< HEAD
         {
             var productFromDb= _unitOfWork.Product.GetFirstOrDefault(u=>u.ProductId == id, includePropreties:"Category");
             ShoppingCart cartobj = new ShoppingCart()
@@ -100,6 +102,8 @@ namespace BookMarked
             }
         }
             
+=======
+>>>>>>> EBooksandSubscription
         public IActionResult Privacy()
         {
             return View();

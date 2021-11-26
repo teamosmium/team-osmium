@@ -18,7 +18,7 @@ function loadDataTable() {
             { "data": "author", "width": "15%" },
             { "data": "category.categoryName", "width": "15%" },
             {
-                "data": "id",
+                "data": "productId",
                 "render": function (data) {
                     return `
                             <div class="text-center">
