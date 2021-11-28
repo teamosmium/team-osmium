@@ -1,0 +1,27 @@
+public IActionResult InsertOrUpdate(int? id)
+        {
+            Category category = new Category();
+            if (!id.HasValue)
+            {
+                //This cretae
+                return View(category);
+
+            }
+            //this is update
+
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+
+        }
+
+        public void ShouldRetrieveCategoryFromId()
+        {
+            CategoryController categoryController = new CategoryController;
+            CategoryController.InsertOrUpdate(2);
+            
+
+        }

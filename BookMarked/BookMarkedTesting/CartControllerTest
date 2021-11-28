@@ -1,0 +1,52 @@
+Public void Should_Increment_Card_Count_By_1_For_Provided_Cart_Id()
+{
+
+CartController cartController = new CartController();
+int initialCartCount = cartController.Cart.Count;
+cartController.Plus(4);
+
+int finalCartCount = cartController.Cart.Count
+
+System.out.Print ((finalCartCount-initialCartCount == 1)?"Pass":"Fail")
+Assertions.AssertEquals(1,finalCartCount-initialCartCount)
+
+}
+
+
+Public void Should_Decrement_Card_Count_By_1_For_Provided_Cart_Id()
+{
+
+CartController cartController = new CartController();
+int initialCartCount = cartController.Cart.Count;
+cartController.Minus(4);
+
+int finalCartCount = cartController.Cart.Count
+
+System.out.Print ((initialCartCount-finalCartCount == 1)?"Pass":"Fail")
+Assertions.AssertEquals(1,initialCartCount-finalCartCount)
+
+
+}
+
+Public void Should_Not_Decrement_Card_Count_By_1_For_Provided_Cart_Id_Is_0()
+{
+
+CartController cartController = new CartController();
+int initialCartCount = cartController.Cart.Count;
+cartController.Minus(4);
+
+int finalCartCount = cartController.Cart.Count
+
+System.out.Print ((initialCartCount-finalCartCount == 0)?"Pass":"Fail")
+Assertions.AssertEquals(initialCartCount,initialCartCount-finalCartCount)
+
+
+}
+
+
+
+
+
+
+
+
