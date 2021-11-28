@@ -48,12 +48,12 @@
                                                 <h6 class="my-0">@details.Product.Title</h6>
                                                 <small class="text-muted">Quantity: @details.Count</small>
                                             </div>
-                                            <span class="text-muted">$ @(details.Price * details.Count)</span>
+                                            <span class="text-muted">&#8364;@(details.Price * details.Count)</span>
                                         </li>
                                     }
                                     <li class="list-group-item d-flex justify-content-between bg-light">
-                                        <small class="text-info">Total (USD)</small>
-                                        <strong class="text-info">$@(Model.OrderHeader.OrderTotal)</strong>
+                                        <small class="text-info">Total (EUR)</small>
+                                        <strong class="text-info">&#8364;@(Model.OrderHeader.OrderTotal)</strong>
                                     </li>
                                 </ul>
                             </div>
@@ -68,11 +68,11 @@
                         <div class="col-12 col-md-4">
                             @{
                                 var OrderTotalForStripe = Model.OrderHeader.OrderTotal * 100;
-
                             }
                             <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                     data-key="@Stripe.Value.PublishableKey"
                                     data-amount="@OrderTotalForStripe"
+                                    data-currency="eur"
                                     data-name="BookMarked"
                                     data-label="Place Order"
                                     data-locate="auto"
