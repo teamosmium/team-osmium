@@ -12,12 +12,12 @@ namespace BookMarked.Models
     {
         public ShoppingCart()
         {
-            
+
         }
         [Key]
-        public int Id { get; set; }
-        public string  UserId{ get; set; }
-        [ForeignKey("UserId")]
+        public int ShoppingCartId { get; set; }
+        public string UserId { get; set; }
+        [ForeignKey("Id")]
         public User User { get; set; }
         public int ProductId { get; set; }
         [ForeignKey("ProductId")]

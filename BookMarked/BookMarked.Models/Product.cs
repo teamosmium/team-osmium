@@ -16,11 +16,11 @@ namespace BookMarked.Models
         public string Title { get; set; }
         [Required]
         public string Description { get; set; }
-        public string  ISBN { get; set; }
+        public string ISBN { get; set; }
         [Required]
         public string Author { get; set; }
         [Required]
-        [Range(1,10000)]
+        [Range(1, 10000)]
         public double Price { get; set; }
         [Required]
         public int Stock { get; set; }
@@ -29,6 +29,8 @@ namespace BookMarked.Models
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public int Sales { get; set; }
 
     }
 }

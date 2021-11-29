@@ -30,9 +30,9 @@ namespace BookMarked.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new ProductVM()
-            { 
+            {
                 Product = new Product(),
-                CategoryList = _unitOfWork.Category.GetAll().Select(i=> new SelectListItem
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
                 {
                     Text = i.CategoryName,
                     Value = i.CategoryId.ToString()
@@ -54,27 +54,27 @@ namespace BookMarked.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(ProductVM productVM)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 string webRootPath = _hostEnvironment.WebRootPath;
                 var files = HttpContext.Request.Form.Files;
-                if(files.Count>0)
+                if (files.Count > 0)
                 {
                     string fileName = Guid.NewGuid().ToString();
                     var uploads = Path.Combine(webRootPath, @"images\products");
                     var extension = Path.GetExtension(files[0].FileName);
-                    if(productVM.Product.ImageURL != null)
+                    if (productVM.Product.ImageURL != null)
                     {
                         //this is an edit, we need to remove old image
-                        
+
                         var imagePath = Path.Combine(webRootPath, productVM.Product.ImageURL.TrimStart('\\'));
-                        if(System.IO.File.Exists(imagePath))
+                        if (System.IO.File.Exists(imagePath))
                         {
                             System.IO.File.Delete(imagePath);
                         }
 
                     }
-                    using(var fileStreams = new FileStream(Path.Combine(uploads,fileName+extension),FileMode.Create))
+                    using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
                     {
                         files[0].CopyTo(fileStreams);
                     }
@@ -83,14 +83,15 @@ namespace BookMarked.Areas.Admin.Controllers
                 else
                 {
                     //update when no image change
-                    if(productVM.Product.ProductId != 0)
+                    if (productVM.Product.ProductId != 0)
                     {
                         Product objFromDb = _unitOfWork.Product.Get(productVM.Product.ProductId);
                         productVM.Product.ImageURL = objFromDb.ImageURL;
                     }
                 }
-                if(productVM.Product.ProductId == 0)
+                if (productVM.Product.ProductId == 0)
                 {
+                    productVM.Product.CreatedOn = DateTime.Now;
                     _unitOfWork.Product.Add(productVM.Product);
                 }
                 else
@@ -108,7 +109,7 @@ namespace BookMarked.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includePropreties:"Category");
+            var allObj = _unitOfWork.Product.GetAll(includePropreties: "Category");
             return Json(new { data = allObj });
         }
 
@@ -116,20 +117,20 @@ namespace BookMarked.Areas.Admin.Controllers
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Product.Get(id);
-            if(objFromDb==null)
+            if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            
-                //this is an edit, we need to remove old image
-                string webRootPath = _hostEnvironment.WebRootPath;
-                var imagePath = Path.Combine(webRootPath, objFromDb.ImageURL.TrimStart('\\'));
-                if (System.IO.File.Exists(imagePath))
-                {
-                    System.IO.File.Delete(imagePath);
-                }
 
-            
+            //this is an edit, we need to remove old image
+            string webRootPath = _hostEnvironment.WebRootPath;
+            var imagePath = Path.Combine(webRootPath, objFromDb.ImageURL.TrimStart('\\'));
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+            }
+
+
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });

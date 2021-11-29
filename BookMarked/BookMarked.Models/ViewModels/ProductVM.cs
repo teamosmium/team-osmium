@@ -11,5 +11,8 @@ namespace BookMarked.Models.ViewModels
     {
         public Product Product { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
+        public IEnumerable<Product> TrendingProds { get; set; }
+        public IEnumerable<Product> productList { get; set; }
+        public IEnumerable<Product> newReleases { get; set; }
     }
 }

@@ -28,8 +28,8 @@ namespace BookMarked.DataAccess.Data.Repository
                               EBookId = eBook.EBookId,
                               Title = eBook.Title,
                               CoverImageUrl = eBook.CoverImageUrl,
-                              BookPdf=eBook.BookPdf,
-                              Price=eBook.Price
+                              BookPdf = eBook.BookPdf,
+                              Price = eBook.Price
                           }).ToList();
 
         }
@@ -45,12 +45,12 @@ namespace BookMarked.DataAccess.Data.Repository
                      Title = eBook.Title,
                      CoverImageUrl = eBook.CoverImageUrl,
                      BookPdfUrl = eBook.BookPdfUrl,
-                     Price=eBook.Price
+                     Price = eBook.Price
                  }).FirstOrDefault();
         }
         public List<EBook> SearchEBook(string title, string authorName)
         {
-            return DataSource().Where(x => x.Title == title || x.Author == authorName).ToList();
+            return _context.EBooks.Where(x => x.Title == title || x.Author == authorName).ToList();
         }
         public async Task<int> AddNewEBook(EBookVM eBook)
         {
@@ -61,9 +61,9 @@ namespace BookMarked.DataAccess.Data.Repository
                 Title = eBook.EBook.Title,
                 CoverImageUrl = eBook.EBook.CoverImageUrl,
                 BookPdfUrl = eBook.EBook.BookPdfUrl,
-                CategoryId=eBook.EBook.CategoryId,
-                Price=eBook.EBook.Price
- 
+                CategoryId = eBook.EBook.CategoryId,
+                Price = eBook.EBook.Price
+
             };
 
             await _context.EBooks.AddAsync(newEBook);
@@ -71,17 +71,6 @@ namespace BookMarked.DataAccess.Data.Repository
 
             return newEBook.EBookId;
 
-        }
-        private List<EBook> DataSource()
-        {
-            return new List<EBook>()
-            {
-                new EBook(){EBookId =1,Title="MVC", Author="S", CategoryId=1},
-                new EBook(){EBookId =2,Title="SCDSC2", Author="S",CategoryId=2},
-                new EBook(){EBookId =3,Title="SCDSC3", Author="S",CategoryId=2},
-                new EBook(){EBookId =4,Title="SCDSC4", Author="S",CategoryId=1},
-                new EBook(){EBookId =5,Title="SCDSC5", Author="S",CategoryId=1},
-            };
         }
     }
 }
