@@ -1,37 +1,8 @@
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.deps.json
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\ref\BookMarked.DataAccess.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.pdb
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.pdb
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.pdb
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CopyComplete
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
-D:\5721 - Software Design - JJ\Project\BM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.deps.json
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\ref\BookMarked.DataAccess.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.pdb
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.pdb
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.pdb
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CopyComplete
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
-C:\Users\Aditya..!!\source\repos\BookM\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.deps.json
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\ref\BookMarked.DataAccess.dll
@@ -40,29 +11,7 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Data
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.pdb
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CopyComplete
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.deps.json
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\ref\BookMarked.DataAccess.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.DataAccess.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Models.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\bin\Debug\net5.0\BookMarked.Utility.pdb
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.AssemblyReference.cache
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfoInputs.cache
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.AssemblyInfo.cs
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.csproj.CopyComplete
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\ref\BookMarked.DataAccess.dll
-C:\Users\admin\source\repos\teamosmium\team-osmium\BookMarked\BookMarked.DataAccess\obj\Debug\net5.0\BookMarked.DataAccess.pdb

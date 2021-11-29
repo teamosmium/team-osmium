@@ -29,7 +29,8 @@ namespace BookMarked
 
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
+            ProductVM productVM = new ProductVM();
+            productVM.productList = _unitOfWork.Product.GetAll(includePropreties: "Category");
 
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -38,8 +39,9 @@ namespace BookMarked
                 var count = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == claim.Value).ToList().Count();
                 HttpContext.Session.SetInt32(SD.ssShoppingCart, count);
             }
-
-            return View(productList);
+            productVM.TrendingProds = productVM.productList.OrderByDescending(x => x.Sales).Take(4);
+            productVM.newReleases = productVM.productList.OrderByDescending(x => x.CreatedOn).Take(4);
+            return View(productVM);
         }
         public IActionResult Details(int id)
 
@@ -58,7 +60,7 @@ namespace BookMarked
         [Authorize]
         public IActionResult Details(ShoppingCart cartObject)
         {
-            cartObject.Id = 0;
+            cartObject.ShoppingCartId = 0;
             if (ModelState.IsValid)
             {
                 var claimsIdentity = (ClaimsIdentity)User.Identity;
