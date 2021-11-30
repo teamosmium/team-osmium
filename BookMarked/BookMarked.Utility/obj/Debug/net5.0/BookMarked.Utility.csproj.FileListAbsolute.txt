@@ -9,3 +9,4 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Util
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\ref\BookMarked.Utility.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.pdb
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked.Utility\obj\Debug\net5.0\BookMarked.Utility.csproj.AssemblyReference.cache

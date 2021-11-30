@@ -11,7 +11,7 @@ namespace BookMarked.DataAccess.Data
     public interface ISubscribe : IRepository<Subscription>
     {
         void registerObserver(string observerId,string subType);
-        void unregisterObserver(User observer);
-        void Notify();
+        void unregisterObserver(Subscription observer);
+        void Notify(string email,string subType);
     }
 }

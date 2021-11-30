@@ -483,3 +483,6 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\ref\BookMarked.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.genruntimeconfig.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\MailKit.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\MimeKit.dll
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\BouncyCastle.Crypto.dll

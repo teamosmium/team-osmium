@@ -17,15 +17,15 @@ namespace BookMarked.DataAccess.Data
         {
             _context = context;
         }
-        public void Notify()
+        public void Notify(string email, string subType)
         {
-            _observer.Notify();
+            _observer.Notify(email, subType);
 
         }
 
-        public void registerObserver(string observerId,string subType)
+        public void registerObserver(string observerId, string subType)
         {
-            User user = _context.User.FirstOrDefault(x=>x.UserId==observerId);
+            User user = _context.User.FirstOrDefault(x => x.UserId == observerId);
             user.IsSubscribed = true;
             //Add subscription data to table
             Subscription subscription = new Subscription();
@@ -35,12 +35,20 @@ namespace BookMarked.DataAccess.Data
             subscription.SubscriptionEndDate = DateTime.Now.AddDays(10);
             _context.Add(subscription);
             _context.SaveChanges();
-            Notify();
+            Notify(user.Email, subType);
         }
 
-        public void unregisterObserver(User observer)
+        public void unregisterObserver(Subscription observer)
         {
-            throw new NotImplementedException();
+            if (observer.SubscriptionId != 0 && DateTime.Now > observer.SubscriptionEndDate)
+            {
+
+                User user = _context.User.FirstOrDefault(x => x.UserId == observer.UserId);
+                user.IsSubscribed = false;
+
+                _context.SaveChanges();
+            }
+
         }
     }
 }
