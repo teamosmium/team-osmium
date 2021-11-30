@@ -9,6 +9,7 @@ using BookMarked.Data;
 using BookMarked.DataAccess;
 using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Models;
+using BookMarked.DataAccess.Data.Repository;
 
 namespace BookMarked.Areas.Admin.Controllers
 {
@@ -16,13 +17,16 @@ namespace BookMarked.Areas.Admin.Controllers
     public class CategoriesController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CategoriesController(IUnitOfWork unitOfWork)
+        private readonly CategoryRepository _categoryRepository = null;
+        public CategoriesController(CategoryRepository categoryRepository,IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
+            _categoryRepository = categoryRepository;
         }
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Category> categoryList = _categoryRepository.GetAllCategories();
+            return View(categoryList);
         }
 
 

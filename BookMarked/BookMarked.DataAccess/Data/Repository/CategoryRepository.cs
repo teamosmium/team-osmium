@@ -17,6 +17,16 @@ namespace BookMarked.DataAccess.Data.Repository
 
             _db = db;
         }
+        public IEnumerable<Category> GetAllCategories()
+        {
+            return _db.Categories
+                          .Select(category => new Category()
+                          {
+                              CategoryId = category.CategoryId,
+                              CategoryName = category.CategoryName
+                          }).ToList();
+
+        }
 
         public void Update(Category category)
         {

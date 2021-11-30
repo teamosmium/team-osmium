@@ -45,6 +45,7 @@ namespace BookMarked
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllersWithViews();
             services.AddScoped<EBookRepository, EBookRepository>();
+            services.AddScoped<CategoryRepository, CategoryRepository>();
             services.AddScoped<Subscribe, Subscribe>();
             services.AddSession(options =>
             {
