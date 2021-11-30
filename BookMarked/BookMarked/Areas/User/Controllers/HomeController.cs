@@ -60,7 +60,7 @@ namespace BookMarked
         [Authorize]
         public IActionResult Details(ShoppingCart cartObject)
         {
-            cartObject.ShoppingCartId = 0;
+            cartObject.Id = 0;
             if (ModelState.IsValid)
             {
                 var claimsIdentity = (ClaimsIdentity)User.Identity;

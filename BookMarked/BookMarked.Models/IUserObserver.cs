@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookMarked.Models.ViewModels
+namespace BookMarked.Models
 {
-    internal class ShoppingCartViewModel
+    public interface IUserObserver
     {
+        public void Notify();
     }
 }

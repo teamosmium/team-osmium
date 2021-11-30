@@ -15,12 +15,13 @@ namespace BookMarked.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<User> User { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
         public DbSet<OrderHeader> OrderHeaders { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<EBook> EBooks { get; set; }
+        public DbSet<User> User { get; set; }
     }
+
 }

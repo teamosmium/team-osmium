@@ -23,7 +23,6 @@ namespace BookMarked.Areas.Customer.Controllers
         private readonly IEmailSender _emailSender;
         private UserManager<IdentityUser> _userManager;
         [BindProperty]
-
         public ShoppingCartVM ShoppingCartVM { get; set; }
 
         public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender, UserManager<IdentityUser> userManager)
@@ -64,7 +63,7 @@ namespace BookMarked.Areas.Customer.Controllers
 
         public IActionResult Plus(int cartId)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.ShoppingCartId == cartId, includePropreties: "Product");
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.Id == cartId, includePropreties: "Product");
             cart.Count += 1;
             cart.Price = (cart.Count * cart.Product.Price);
             _unitOfWork.Save();
@@ -74,7 +73,7 @@ namespace BookMarked.Areas.Customer.Controllers
 
         public IActionResult Minus(int cartId)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.ShoppingCartId == cartId, includePropreties: "Product");
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.Id == cartId, includePropreties: "Product");
             if (cart.Count == 1)
             {
                 var cnt = _unitOfWork.ShoppingCart.GetAll(u => u.UserId == cart.UserId).ToList().Count();
@@ -98,7 +97,7 @@ namespace BookMarked.Areas.Customer.Controllers
 
         public IActionResult Remove(int cartId)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.ShoppingCartId == cartId, includePropreties: "Product");
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(c => c.Id == cartId, includePropreties: "Product");
             var cnt = _unitOfWork.ShoppingCart.GetAll(u => u.UserId == cart.UserId).ToList().Count();
             _unitOfWork.ShoppingCart.Remove(cart);
             _unitOfWork.Save();
@@ -110,11 +109,11 @@ namespace BookMarked.Areas.Customer.Controllers
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-            ShoppingCartVM = new ShoppingCartVM()
+             ShoppingCartVM = new ShoppingCartVM()
             {
 
                 OrderHeader = new OrderHeader(),
-                ListCart = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == claim.Value, includePropreties: "Product")
+                ListCart = _unitOfWork.ShoppingCart.GetAll(c => c.UserId == claim.Value,includePropreties:"Product")
             };
 
             foreach (var item in ShoppingCartVM.ListCart)
@@ -125,13 +124,13 @@ namespace BookMarked.Areas.Customer.Controllers
 
             ShoppingCartVM.OrderHeader.Name = User.Identity.Name;
 
-            return View(ShoppingCartVM);
+            return View (ShoppingCartVM);
         }
 
         [HttpPost]
         [ActionName("Summary")]
         [ValidateAntiForgeryToken]
-        public IActionResult SummaryPost(string stripeToken)
+        public IActionResult SummaryPost(string stripeToken) 
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -152,18 +151,17 @@ namespace BookMarked.Areas.Customer.Controllers
                 {
                     ProductId = item.ProductId,
                     OrderId = ShoppingCartVM.OrderHeader.Id,
-                    Price = item.Price,
-                    Count = item.Count
+                    Price=item.Price,
+                    Count=item.Count
 
                 };
                 ShoppingCartVM.OrderHeader.OrderTotal += orderDetails.Count * orderDetails.Price;
                 _unitOfWork.OrderDetails.Add(orderDetails);
-                {
-
+           
                     var prod = _unitOfWork.Product.Get(orderDetails.ProductId);
                     prod.Sales = prod.Sales + orderDetails.Count;
                     _unitOfWork.Save();
-                }
+                
             }
             _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ListCart);
             _unitOfWork.Save();
@@ -188,12 +186,12 @@ namespace BookMarked.Areas.Customer.Controllers
                 {
                     ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusRejected;
                 }
-                else
+                else 
                 {
                     ShoppingCartVM.OrderHeader.TransactionId = charge.BalanceTransactionId;
                 }
 
-                if (charge.Status.ToLower() == "succeeded")
+                if (charge.Status.ToLower() == "succeeded") 
                 {
                     ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusApproved;
                     ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusApproved;
@@ -203,12 +201,13 @@ namespace BookMarked.Areas.Customer.Controllers
             }
 
             _unitOfWork.Save();
-
             return RedirectToAction("OrderConfirmation", "Cart", new { id = ShoppingCartVM.OrderHeader.Id });
+
+            
         }
 
-        public IActionResult OrderConfirmation(int Id)
-
+        public IActionResult OrderConfirmation(int Id) 
+        
         {
             return View(Id);
         }

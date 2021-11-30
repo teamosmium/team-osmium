@@ -14,7 +14,7 @@ namespace BookMarked.Models
         public DateTime SubscriptionStartDate { get; set; }
         public DateTime SubscriptionEndDate { get; set; }
         [ForeignKey("UserId")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         
     }
 }
