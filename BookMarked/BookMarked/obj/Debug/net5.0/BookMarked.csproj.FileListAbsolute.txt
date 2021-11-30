@@ -3,6 +3,7 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.AssemblyInfoInputs.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.AssemblyInfo.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.csproj.CoreCompileInputs.cache
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.MvcApplicationPartsAssemblyInfo.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.MvcApplicationPartsAssemblyInfo.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.RazorAssemblyInfo.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.RazorAssemblyInfo.cs
@@ -433,7 +434,6 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.DataAccess.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.Models.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\bin\Debug\net5.0\BookMarked.Utility.pdb
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.MvcApplicationPartsAssemblyInfo.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\staticwebassets\BookMarked.StaticWebAssets.Manifest.cache
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\staticwebassets\BookMarked.StaticWebAssets.xml
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\scopedcss\bundle\BookMarked.styles.css
@@ -452,6 +452,12 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Upsert.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Cart\Index.cshtml.g.cs
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\User\Views\Cart\OrderConfirmation.cshtml.g.cs
@@ -477,9 +483,3 @@ D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\ref\BookMarked.dll
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.pdb
 D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\BookMarked.genruntimeconfig.cache
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-D:\5721 - Software Design - JJ\Project\BM\team-osmium\BookMarked\BookMarked\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

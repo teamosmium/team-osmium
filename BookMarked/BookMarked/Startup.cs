@@ -1,4 +1,5 @@
 using BookMarked.Data;
+using BookMarked.DataAccess.Data;
 using BookMarked.DataAccess.Data.Repository;
 using BookMarked.DataAccess.Data.Repository.IRepository;
 using BookMarked.Utility;
@@ -35,14 +36,14 @@ namespace BookMarked
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
-               .AddEntityFrameworkStores<ApplicationDbContext>();
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
+            services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            services.AddRazorPages();
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddScoped<EBookRepository, EBookRepository>();
+            services.AddScoped<Subscribe, Subscribe>();
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
