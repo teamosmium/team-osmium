@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 function loadDataTable() {
-    dataTable = $('#tblData').DataTable({
+    dataTable = $('#tblData2').DataTable({
         "ajax":
         {
             "url": "/Admin/Categories/GetAll"
