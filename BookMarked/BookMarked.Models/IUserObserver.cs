@@ -8,6 +8,6 @@ namespace BookMarked.Models
 {
     public interface IUserObserver
     {
-        public void Notify();
+        public void Notify(string email, string SubType);
     }
 }
