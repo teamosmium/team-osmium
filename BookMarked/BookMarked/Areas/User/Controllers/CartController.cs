@@ -20,16 +20,14 @@ namespace BookMarked.Areas.Customer.Controllers
 
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IEmailSender _emailSender;
         private UserManager<IdentityUser> _userManager;
         [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
 
-        public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender, UserManager<IdentityUser> userManager)
+        public CartController(IUnitOfWork unitOfWork, UserManager<IdentityUser> userManager)
         {
             _unitOfWork = unitOfWork;
-            _emailSender = emailSender;
-            userManager = _userManager;
+            _userManager = userManager;
         }
 
         public IActionResult Index()

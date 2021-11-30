@@ -37,10 +37,12 @@ namespace BookMarked
                     Configuration.GetConnectionString("DefaultConnection")));
 
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
-            services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
+               .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
+            services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllersWithViews();
             services.AddScoped<EBookRepository, EBookRepository>();
             services.AddScoped<Subscribe, Subscribe>();
