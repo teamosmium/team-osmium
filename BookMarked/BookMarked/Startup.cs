@@ -35,11 +35,12 @@ namespace BookMarked
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
+               .AddEntityFrameworkStores<ApplicationDbContext>();
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
-            services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
             services.AddControllersWithViews();
             services.AddScoped<EBookRepository, EBookRepository>();
             services.AddSession(options =>
