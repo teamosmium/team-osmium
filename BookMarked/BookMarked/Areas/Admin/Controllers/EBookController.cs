@@ -88,7 +88,7 @@ namespace BookMarked.Areas.Admin.Controllers
             {
                 if (ebookvm.EBook.CoverPhoto != null)
                 {
-                    string folder = "/BookMarked/images/ebook/";
+                    string folder = "/images/ebook/";
                     ebookvm.EBook.CoverImageUrl = await UploadImage(folder, ebookvm.EBook.CoverPhoto);
                 }
 

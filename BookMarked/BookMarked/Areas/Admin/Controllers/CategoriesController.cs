@@ -82,8 +82,8 @@ namespace BookMarked.Areas.Admin.Controllers
         }
 
 
-        [HttpDelete]
-
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Category.Get(id);

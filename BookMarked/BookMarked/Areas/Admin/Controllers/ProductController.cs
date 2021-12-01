@@ -66,7 +66,7 @@ namespace BookMarked.Areas.Admin.Controllers
                 if (files.Count > 0)
                 {
                     string fileName = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(webRootPath, @"\BookMarked\images\products");
+                    var uploads = Path.Combine(webRootPath, @"images\products");
                     var extension = Path.GetExtension(files[0].FileName);
                     if (productVM.Product.ImageURL != null)
                     {
@@ -83,7 +83,7 @@ namespace BookMarked.Areas.Admin.Controllers
                     {
                         files[0].CopyTo(fileStreams);
                     }
-                    productVM.Product.ImageURL = @"\BookMarked\images\products\" + fileName + extension;
+                    productVM.Product.ImageURL = @"\images\products\" + fileName + extension;
                 }
                 else
                 {
