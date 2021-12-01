@@ -17,6 +17,24 @@ namespace BookMarked.DataAccess.Data.Repository
 
             _db = db;
         }
+        public IEnumerable<Product> GetAllProducts()
+        {
+            return _db.Products
+                          .Select(product => new Product()
+                          {
+                            ProductId = product.ProductId,
+                            Author = product.Author,
+                            Title = product.Title,
+                            Price = product.Price,
+                            ImageURL = product.ImageURL,
+                            Category = product.Category,
+                            CreatedOn = product.CreatedOn,
+                            Description = product.Description,
+                            ISBN = product.ISBN,
+                            Sales = product.Sales,
+                            Stock = product.Stock
+                          }).ToList();
+        }
 
         public void Update(Product product)
         {

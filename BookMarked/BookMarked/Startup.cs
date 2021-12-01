@@ -46,6 +46,7 @@ namespace BookMarked
             services.AddControllersWithViews();
             services.AddScoped<EBookRepository, EBookRepository>();
             services.AddScoped<CategoryRepository, CategoryRepository>();
+            services.AddScoped<ProductRepository, ProductRepository>();
             services.AddScoped<Subscribe, Subscribe>();
             services.AddSession(options =>
             {

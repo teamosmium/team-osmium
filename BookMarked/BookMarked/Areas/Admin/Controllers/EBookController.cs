@@ -88,13 +88,13 @@ namespace BookMarked.Areas.Admin.Controllers
             {
                 if (ebookvm.EBook.CoverPhoto != null)
                 {
-                    string folder = "images/ebook/";
+                    string folder = "/BookMarked/images/ebook/";
                     ebookvm.EBook.CoverImageUrl = await UploadImage(folder, ebookvm.EBook.CoverPhoto);
                 }
 
                 if (ebookvm.EBook.BookPdf != null)
                 {
-                    string folder = "ebooks/pdf/";
+                    string folder = "/BookMarked/ebooks/pdf/";
                     ebookvm.EBook.BookPdfUrl = await UploadImage(folder, ebookvm.EBook.BookPdf);
                 }
 

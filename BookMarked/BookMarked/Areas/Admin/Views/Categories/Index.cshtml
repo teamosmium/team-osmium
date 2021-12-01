@@ -2,6 +2,33 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<script>
+    function Delete(url) {
+        swal({
+            title: "Are you sure you want to Delete?",
+            text: "You will not be able to restore the data!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true
+        }).then((willDelete) => {
+            if (willDelete) {
+                $.ajax({
+                    type: "DELETE",
+                    url: url,
+                    success: function (data1) {
+                        if (data1.success) {
+                            toastr.success(data1.message);
+                            window.location.reload()
+                        }
+                        else {
+                            toastr.error(data1.message);
+                        }
+                    }
+                });
+            }
+        });
+    }
+</script>
 <br />
 <div class="row">
     <div class="col-9">
@@ -26,8 +53,8 @@
         @foreach (var category in Model)
         {
             <tr>
-                <td>@category.CategoryName</td>
-                <td>
+                <td style="width:70%">@category.CategoryName</td>
+                <td style="width:30%">
                     <div class="text-center">
                         <a href="Categories/InsertOrUpdate/@category.CategoryId" class="btn btn-success text-white" style="cursor:pointer">
                             <i class="fas fa-edit"></i>

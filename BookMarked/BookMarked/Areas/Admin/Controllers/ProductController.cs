@@ -7,6 +7,8 @@ using BookMarked.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.IO;
+using BookMarked.DataAccess.Data.Repository;
+using System.Collections.Generic;
 
 namespace BookMarked.Areas.Admin.Controllers
 {
@@ -15,16 +17,19 @@ namespace BookMarked.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _hostEnvironment;
+        private readonly ProductRepository _productRepository = null;
 
-        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment, ProductRepository productRepository)
         {
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
+            _productRepository = productRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productList = _productRepository.GetAllProducts();
+            return View(productList);
         }
 
         public IActionResult Upsert(int? id)
@@ -61,7 +66,7 @@ namespace BookMarked.Areas.Admin.Controllers
                 if (files.Count > 0)
                 {
                     string fileName = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(webRootPath, @"images\products");
+                    var uploads = Path.Combine(webRootPath, @"\BookMarked\images\products");
                     var extension = Path.GetExtension(files[0].FileName);
                     if (productVM.Product.ImageURL != null)
                     {
@@ -78,7 +83,7 @@ namespace BookMarked.Areas.Admin.Controllers
                     {
                         files[0].CopyTo(fileStreams);
                     }
-                    productVM.Product.ImageURL = @"\images\products\" + fileName + extension;
+                    productVM.Product.ImageURL = @"\BookMarked\images\products\" + fileName + extension;
                 }
                 else
                 {
